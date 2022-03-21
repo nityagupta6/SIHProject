@@ -1,12 +1,12 @@
 
 	
-var  selectLocation = document.getElementById('select-location');
+var  selectModel = document.getElementById('select-model');
 
-var selectState= document.getElementById('select-state');
+var selectBrand = document.getElementById('select-brand');
 document.addEventListener('change', function(){
-	console.log(selectState.value);
-	removeOptions(selectLocation);
-	objectList[selectState.value].forEach(createOption);
+	console.log(selectBrand.value);
+	removeOptions(selectModel);
+	objectList[selectBrand.value].forEach(createOption);
 	
 })
 
@@ -15,10 +15,10 @@ var objectList = {
 		"beach", "sunset", "cruise"
 	],
 	"uttarpradesh":[
-		"agra", "mathura", "varanasi"
+		"agra", "varanasi", "stupa"
 	],
 	"uttrakhand":[
-		"nanital", "haridwar", "hills"
+		"manali", "nainital", "rishikesh"
 	]
 	
 }
@@ -28,9 +28,9 @@ function createOption(item, index){
 	console.log(item, index);
 	
 	if (index==0){
-		selectLocation.options.add( new Option(item, item, true, true) );
+		selectModel.options.add( new Option(item, item, true, true) );
 	}else{
-		selectLocation.options.add( new Option(item,item) );
+		selectModel.options.add( new Option(item,item) );
 	}
 	
 }
@@ -43,4 +43,6 @@ function removeOptions(obj) {
         obj.remove(0);
     }
 }
+
+
 
