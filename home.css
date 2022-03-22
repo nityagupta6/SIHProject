@@ -6,7 +6,7 @@
 
 html{
     font: normal 16px sans-serif;
-    color: #555;
+    color: white;
 }
 
 ul, 
@@ -49,8 +49,8 @@ section h3.title {
 section p {
     max-width: 775;
     line-height: 2;
-    padding: 0 20px;
-    margin-bottom: 30px;
+    padding: 0 10px;
+    /* margin-bottom: 30px; */
     text-align: center;
 }
 
@@ -63,6 +63,10 @@ a.btn {
     opacity: 1;
 }
 
+.author_me{
+    padding-bottom: 20px;
+}
+
 /* section {
     display: flex;
     flex-direction: column;
@@ -70,9 +74,9 @@ a.btn {
     padding: 100px 80px;
 } */
 
-section:not(.hero):nth-child(even){
+/* section:not(.hero):nth-child(even){
     background-color: #f5f5f5;
-}
+} */
 
 /* @media (max-width: 800px) { */
     /* section {
@@ -221,6 +225,11 @@ header nav li{
 
 }
 
+.destinations{
+    background: rgba(0, 0, 0, .8);
+}
+
+
 /*Packages Section*/
 
 .packages .grid li {
@@ -246,6 +255,10 @@ header nav li{
 
 }
 
+.packages{
+    background: rgba(0, 0, 0, .8);
+}
+
 /*Testimonials*/
 
 .testimonials .quote {
@@ -266,6 +279,14 @@ header nav li{
         font-size: 14px;
     }
 
+}
+
+.testimonials{
+    background: rgba(0, 0, 0, .8);
+}
+
+.contact {
+    background: rgba(0, 0, 0, .8);
 }
 
 /*Contact Section*/
@@ -306,7 +327,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #607d8b;
+    /* background-color: #607d8b; */
+    background: rgba(0, 0, 0, .8);
     color: #fff;
     padding: 20px 0;
 }
@@ -390,10 +412,9 @@ a {
 
 form{
     padding:50px;
-    }
-.State-DropDown{
+}
+.middle {
+    background: rgba(0, 0, 0, .8);
+}
 
-}
-.Everything-below{
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url(../images/team/bg.jpeg) center no-repeat;
-}
+
