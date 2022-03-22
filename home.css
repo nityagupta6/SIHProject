@@ -76,7 +76,7 @@ section:not(.hero):nth-child(even){
 
 @media (max-width: 800px) {
     section {
-        /* padding: 50px 20px; */
+        /* padding: 50px 20px; */;
     }
 }
 /*Header Styles */
