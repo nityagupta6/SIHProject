@@ -374,17 +374,26 @@ a {
     background-color: transparent;
     text-decoration: underline;
   }
-/* @media (max-width: 1100px) {
-    .topBar{
-        /* margin-top: 0px; */
+/* @media (max-width: 1100px) { */
+    /* .topBar{
+        margin-top: 0px;
         padding-left: 50%;
-        /* padding-right: 0px; */
-    }
-} */
-@media (min-width:1100px) {
-    .topBar{
-        /* margin-top: 0px; */
+        padding-right: 0px;
+    } */
+/* } */
+/* @media (min-width:1100px) { */
+    /* .topBar{
+        margin-top: 0px;
         padding-left: 50%;
-        /* padding-right: 0px; */
+        padding-right: 0px;
+    } */
+
+form{
+    padding:50px;
     }
+.State-DropDown{
+
+}
+.Everything-below{
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url(../images/team/bg.jpeg) center no-repeat;
 }
