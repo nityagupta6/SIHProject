@@ -5,19 +5,19 @@ body{
     background: rgb(3, 50, 57);
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     font-family: consolas;
 }
 
 .container{
+    padding-top: 0.8%;
+    margin-left: 0.2%;
     width: 1000px;
     position: relative;
     display: flex;
     justify-content: space-between;
     
 }
-
-
 
 .container .card{
     position: relative;
@@ -60,7 +60,7 @@ body{
 
 .container .card .face.face1 .content h3{
     margin: 10px 0 0;
-    padding: 0;
+    padding: 0px;
     color: #fff;
     text-align: center;
     font-size: 1.5em;
@@ -108,13 +108,13 @@ body{
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-left: auto; 
+    margin-left: 0.2%; 
 }
 
 .container2 .card{
     position: relative;
     cursor: pointer;
-    margin: 4%;
+    margin: 1.2%;
 }
 
 .container2 .card .face{
