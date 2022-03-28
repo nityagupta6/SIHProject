@@ -795,3 +795,19 @@ div#carousel {
   .footer p{
     font-size: large;
   }
+
+  .mySlides img {
+    border-radius: 4%;
+  }
+
+  #block {
+    background-color: #3f51b5;
+  }
+
+  #sec {
+    padding-top: 1.5em;
+  }
+  
+  .footer {
+    background-color: #3f51b5;
+  }

@@ -5,6 +5,7 @@
 
 .body {
     margin: 0px;
+    background-color: #061a23;
 }
 /* .container{
     margin: 1em auto;
@@ -14,7 +15,7 @@
     object-fit: cover;
     width: 100%;
     height: 140vh;
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url(../images/team/bg.jpeg) center no-repeat;
+    background-color: #061a23;
     background-size: cover;
 }
 
@@ -350,3 +351,54 @@ a {
     background-color: transparent;
     text-decoration: underline;
   }
+
+  .abtus{
+    background-color: #061a23;
+    /* padding-top: 45%; */
+    padding-top: 20%;
+    text-align: center;
+  }
+  .abt1 p{
+    padding-right: 15%;
+    padding-left: 15%;
+    color: white;
+    font-size: large;
+  }
+  .abt1 h2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .abt2 h2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .abt2 p{
+    padding-right: 15%;
+    padding-left: 15%;
+    color: white;
+    font-size: large;
+}
+hr {
+    width: 100%;
+    height: 3px;
+    background-color: #3f51b5;
+    border: 0;
+    /* margin-bottom: 50px; */
+  }
+  .footer{
+    padding: 20px;
+  font-size: 30px;
+  height: auto;
+  flex-direction: row;
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+  background-color: #3f51b5;
+  }
+  .footer p{
+    font-size: large;
+    color: white;
+  }
+  
