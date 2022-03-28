@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;900&display=swap');
-
+@font-face {
+  font-family: hindi;
+  src: url(SAMAN___.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background-color: black;
-  background-image: linear-gradient(to right, #1a1a1a 0%, #023e66 74%);
+  background-color: #1d82ae;
   font-family: 'Nunito', sans-serif;
+  
 }
 .petha{
   padding-left:100px ;
@@ -85,6 +88,7 @@ body {
   min-height: 100vh;
   padding: 3rem 5rem 0 3rem;
   position: relative;
+  background: rgba(0, 0, 0, 0.8);
 }
 .services::before {
   content: '';
@@ -103,19 +107,22 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%); */
 }
 
 .section-title {
-  font-size: 1.6rem;
+  font-size: 3.9rem;
   text-transform: uppercase;
   font-weight: 900;
-  background: linear-gradient(#ff9a58, #ff2f56);
+  background: linear-gradient(#ffffff, #d0d19d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align:center;
+  font-family: hindi;
+
   
 }
 .section-title2 {
   font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 900;
-  background: linear-gradient(#ff9a58, #ff2f56);
+  background: linear-gradient(#ffffff, #f1f3f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -299,6 +306,7 @@ a{
   align-items: center;
   flex-direction: column;
   width:100%;
+  background: rgba(0, 0, 0, 0.8);
 }
 .testimonial-heading{
   letter-spacing: 1px;
@@ -793,4 +801,18 @@ h2 {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
+}
+
+.footer{
+padding: 20px;
+font-size: 30px;
+height: auto;
+flex-direction: row;
+width: 100%;
+text-align: right;
+text-decoration: none;
+}
+.footer p{
+  font-size: large;
+  color: white;
 }

@@ -782,3 +782,16 @@ div#carousel {
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
+
+  .footer{
+    padding: 20px;
+  font-size: 30px;
+  height: auto;
+  flex-direction: row;
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+  }
+  .footer p{
+    font-size: large;
+  }
